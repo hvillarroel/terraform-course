@@ -1,10 +1,10 @@
 provider "aws" {
-  access_key = "ACCESS_KEY_HERE"
-  secret_key = "SECRET_KEY_HERE"
-  region     = "us-east-1"
+  shared_credentials_file = "~/.aws/credentials"
+  profile                 = "DEFAULT"
+  region                  = "us-east-1"
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0d729a60"
+  ami           = "ami-a4dc46db"
   instance_type = "t2.micro"
 }
