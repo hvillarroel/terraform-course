@@ -3,3 +3,6 @@
 */terraform.tfstate.backup
 */.terraform
 */mykey*
+test-terraform
+test-terraform.pub
+*.DS_Store
