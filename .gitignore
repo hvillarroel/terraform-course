@@ -7,3 +7,4 @@ test-terraform
 test-terraform.pub
 *.DS_Store
 private_ips.txt
+*.terraform.tfstate.lock.info
